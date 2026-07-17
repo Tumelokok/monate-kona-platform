@@ -6,17 +6,21 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 backdrop-blur bg-white/60 border-b border-gray-100">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="w-12 h-12 bg-pink-500 rounded-full" aria-hidden />
+          <img
+            src="/images/MONATE KONA LOGO.png"
+            alt="Monate Kona logo"
+            className="w-12 h-12 object-contain"
+          />
           <Link href="/" className="font-heading font-medium text-lg text-nearblack">
             Monate Kona
           </Link>
         </div>
         <nav className="hidden md:flex gap-8 items-center font-medium text-gray-700">
           <Link href="/" className="hover:text-pink-500">Home</Link>
-          <Link href="/#about" className="hover:text-pink-500">About</Link>
+          <Link href="/about" className="hover:text-pink-500">About</Link>
           <Link href="/menu" className="hover:text-pink-500">Menu</Link>
-          <Link href="/#gallery" className="hover:text-pink-500">Gallery</Link>
-          <Link href="/#contact" className="hover:text-pink-500">Contact</Link>
+          <Link href="/gallery" className="hover:text-pink-500">Gallery</Link>
+          <Link href="/contact" className="hover:text-pink-500">Contact</Link>
         </nav>
         <div className="hidden md:block">
           <Link href="/menu" className="px-5 py-2 bg-pink-500 text-white rounded-full">Order Now</Link>
