@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-pink: #E6008D;
+  --brand-purple: #4A004A;
+  --near-black: #1B1B1B;
+  --accent: #FF8C00;
+}
+
+html,body,#root{height:100%;}
+
+.font-heading{font-family: Poppins, sans-serif}
+.font-body{font-family: Inter, sans-serif}
+
+/* Utility tweaks for container */
+.container{max-width:1200px}
